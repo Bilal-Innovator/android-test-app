@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         btnTriggerEvent = findViewById(R.id.btnTriggerEvent)
         btnTriggerEvent?.setOnClickListener {
-            Toast.makeText(this, "Event triggered !!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Event triggered !", Toast.LENGTH_SHORT).show()
         }
     }
 }
